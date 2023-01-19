@@ -3,13 +3,7 @@ playerSelection = playerSelection.toLowerCase();
 
 let computerSelection = getComputerChoice();
 
-game(playRound());
 
-function game(playRound) {
-    for (i = 0; i < 5; i++) {
-        playRound;
-    }
-}
 
 function playRound(playerSelection, computerSelection) {
 
