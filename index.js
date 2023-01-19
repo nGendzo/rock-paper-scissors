@@ -3,10 +3,39 @@ playerSelection = playerSelection.toLowerCase();
 
 let computerSelection = getComputerChoice();
 
-playRound(playerSelection, computerSelection);
+game(playRound());
+
+function game(playRound) {
+    for (i = 0; i < 5; i++) {
+        playRound;
+    }
+}
 
 function playRound(playerSelection, computerSelection) {
 
+    if (playerSelection == "rock" && computerSelection == "scissors") {
+        return "Player Wins! Rock beats scissors.";
+    }else if (playerSelection == "rock" && computerSelection == "paper") {
+        return "Player Loses! Paper beats rock.";
+    }else if (playerSelection == "rock" && computerSelection == "rock") {
+        return "Draw!";
+    }
+
+    if (playerSelection == "paper" && computerSelection == "rock") {
+        return "Player Wins! Paper beats rock.";
+    }else if (playerSelection == "paper" && computerSelection == "scissors") {
+        return "Player Loses! Scissors beats paper."
+    }else if (playerSelection == "paper" && computerSelection == "paper") {
+        return "Draw!";
+    }
+
+    if (playerSelection == "scissors" && computerSelection == "paper") {
+        return "Player Wins! Scissors beats paper";
+    }else if (playerSelection == "scissors" && computerSelection == "rock") {
+        return "Player Loses! Rock beats scissors.";
+    }else if (playerSelection == "scissors" && computerSelection == "scissors") {
+        return "Draw!";
+    }
 }
 
 function getComputerChoice() {
