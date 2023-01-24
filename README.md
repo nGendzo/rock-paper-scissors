@@ -1,5 +1,3 @@
 # rock-paper-scissors
 
-This is my first javascript project after learning programming fundamentals. I'm going to make a simple implementation of grade-school classic “rock paper scissors”.
-
-Game is played trough browser console!
+This is my first project using Javascript, DOM manipulation methods, HTML and CSS. With combining all these tools, I made a simple implementation of grade-school classic game called “Rock Paper Scissors”.
