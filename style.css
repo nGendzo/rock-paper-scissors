@@ -42,7 +42,6 @@ h1 {
     justify-content: center;
     text-align: center;
     padding: 48px;
-    margin: 48px 164px;
+    margin: 32px 164px;
     font-size: 32px;
-    border: 3px solid black;
 }
